@@ -9,7 +9,7 @@ var losses = 0;
 var computerGuess;
 var computerScore=0;
 var numberOfGuesses=0;
-var guessesRemaining = 9;
+var guessesRemaining = 10;
 
 
 
@@ -45,7 +45,7 @@ else {
     guessesRemaining--
 
     if(guessesRemaining < 0){
-
+        losses++
         guessesRemaining = 9;
     }
 }
